@@ -5,5 +5,5 @@ RUN git clone https://github.com/tadtenacious/Sketches-web-app.git --depth 1 && 
 COPY . /app
 WORKDIR /app
 RUN pip3 install -r requirements.txt
-EXPOSE 5000
+EXPOSE 8501
 CMD streamlit run main.py
